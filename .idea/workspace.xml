@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65971518-9e26-44ff-820b-82c209b2bb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uws-website/admin/delete_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uws-website/admin/modify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uws-website/mailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/admin/create_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/admin/create_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/admin/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/admin/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/css/form/themesaller-forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/css/form/themesaller-forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/c3-charts/c3-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/c3-charts/c3-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/c3-charts/c3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/c3-charts/c3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/c3-charts/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/c3-charts/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/calendar/fullcalendar-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/calendar/fullcalendar-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/calendar/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/calendar/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/calendar/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/calendar/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/chart/jquery.peity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/chart/jquery.peity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/chart/peity-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/chart/peity-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/charts/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/charts/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/charts/area-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/charts/area-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/charts/bar-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/charts/bar-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/charts/line-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/charts/line-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/charts/rounded-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/charts/rounded-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/chosen/chosen-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/chosen/chosen-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/chosen/chosen.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/chosen/chosen.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/code-editor/code-editor-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/code-editor/code-editor-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/code-editor/code-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/code-editor/code-editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/code-editor/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/code-editor/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/colorpicker/color-picker-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/colorpicker/color-picker-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/colorpicker/jquery.spectrum.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/colorpicker/jquery.spectrum.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/counterup/counterup-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/counterup/counterup-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/counterup/jquery.counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/counterup/jquery.counterup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/counterup/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/counterup/waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/cropper/cropper-actice.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/cropper/cropper-actice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/cropper/cropper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/cropper/cropper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-map/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-map/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-map/data-maps-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-map/data-maps-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-map/datamaps.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-map/datamaps.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-map/topojson.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-map/topojson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/bootstrap-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/bootstrap-editable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/bootstrap-table-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/bootstrap-table-editable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/bootstrap-table-export.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/bootstrap-table-export.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/bootstrap-table-resizable.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/bootstrap-table-resizable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/colResizable-1.5.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/colResizable-1.5.source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/data-table-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/data-table-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/data-table/tableExport.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/data-table/tableExport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/datapicker/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/datapicker/datepicker-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/datapicker/datepicker-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/dropzone/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/dropzone/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/duallistbox/duallistbox.active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/duallistbox/duallistbox.active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/duallistbox/jquery.bootstrap-duallistbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/duallistbox/jquery.bootstrap-duallistbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/e-payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/e-payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/editable/bootstrap-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/editable/bootstrap-datetimepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/editable/bootstrap-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/editable/bootstrap-editable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/editable/jquery.mockjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/editable/jquery.mockjax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/editable/mock-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/editable/mock-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/editable/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/editable/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/editable/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/editable/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/editable/xediable-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/editable/xediable-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/flot/curvedLines.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/flot/curvedLines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/flot/flot-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/flot/flot-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/flot/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/flot/jquery.flot.orderBars.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/flot/jquery.flot.orderBars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/flot/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/flot/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/flot/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/google.maps/google.maps-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/google.maps/google.maps-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/icheck/icheck-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/icheck/icheck-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/icheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/icheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/input-mask/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/input-mask/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/ionRangeSlider/ion.rangeSlider.active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/ionRangeSlider/ion.rangeSlider.active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/ionRangeSlider/ion.rangeSlider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/jquery-price-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/jquery-price-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/jquery.meanmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/jquery.meanmenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/jquery.payform.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/jquery.payform.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/jquery.scrollUp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/jquery.scrollUp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/jquery.sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/jquery.sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/knob/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/knob/jquery.knob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/knob/knob-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/knob/knob-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/metisMenu/metisMenu-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/metisMenu/metisMenu-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/metisMenu/metisMenu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/metisMenu/metisMenu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/morrisjs/morris-active-pro.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/morrisjs/morris-active-pro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/morrisjs/morris-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/morrisjs/morris-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/morrisjs/morris.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/morrisjs/morris.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/morrisjs/raphael-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/morrisjs/raphael-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/notifications/Lobibox.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/notifications/Lobibox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/notifications/notification-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/notifications/notification-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/password-meter/password-meter-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/password-meter/password-meter-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/password-meter/pwstrength-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/password-meter/pwstrength-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/password-meter/zxcvbn.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/password-meter/zxcvbn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/pdf/jquery.media.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/pdf/jquery.media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/pdf/pdf-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/pdf/pdf-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/peity/jquery.peity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/peity/jquery.peity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/peity/peity-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/peity/peity-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/rangle-slider/jquery-ui-1.10.4.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/rangle-slider/jquery-ui-1.10.4.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/rangle-slider/jquery-ui-touch-punch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/rangle-slider/jquery-ui-touch-punch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/rangle-slider/rangle-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/rangle-slider/rangle-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/scrollbar/jquery.mCustomScrollbar.concat.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/scrollbar/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/scrollbar/mCustomScrollbar-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/scrollbar/mCustomScrollbar-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/select2/select2-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/select2/select2-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/sparkline/jquery.charts-sparkline.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/sparkline/jquery.charts-sparkline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/sparkline/jquery.sparkline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/sparkline/sparkline-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/sparkline/sparkline-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/summernote/summernote-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/summernote/summernote-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/summernote/summernote.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/summernote/summernote.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/touchspin/jquery.bootstrap-touchspin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/touchspin/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/touchspin/touchspin-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/touchspin/touchspin-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/tree-line/jstree.active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/tree-line/jstree.active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/tree-line/jstree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/tree-line/jstree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/vendor/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/vendor/modernizr-2.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/wizard/jquery.steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/wizard/jquery.steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/wizard/steps-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/wizard/steps-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/vendor/js/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uws-website/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uws-website/style2.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/PHPMailer-5.2-stable/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/formation_dispo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/admin/modify.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3655">
+              <caret line="215" selection-start-line="215" selection-end-line="215" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/admin/read.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4709">
+              <caret line="277" selection-start-line="277" selection-end-line="277" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5338">
+              <caret line="314" column="12" selection-start-line="314" selection-start-column="12" selection-end-line="314" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/a.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/read_stage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/admin/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5100">
+              <caret line="300" column="57" selection-start-line="300" selection-start-column="57" selection-end-line="300" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uws-website/admin/aside/aside.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/admin/modifier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uws-website/traitement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="38" selection-start-line="6" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jquery-1.10.2.js</find>
+      <find>btn</find>
+      <find>input-group</find>
+      <find>earni</find>
+      <find>Revenue Sources</find>
+      <find>body</find>
+      <find>wrapper</find>
+      <find>wrapper2</find>
+      <find>earn</find>
+      <find>reve</find>
+      <find>revue</find>
+      <find>demand</find>
+      <find>dash</find>
+      <find>creat</find>
+      <find>create s</find>
+      <find>genera</find>
+      <find>log</find>
+      <find>logou</find>
+      <find>logo</find>
+      <find>espace</find>
+      <find>espa</find>
+      <find>creer</find>
+      <find>stage</find>
+      <find>stage de</find>
+      <find>id_use</find>
+      <find>$link</find>
+      <find>$stmt</find>
+      <find>$input_name</find>
+      <find>$sql</find>
+      <find>respo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#</replace>
+      <replace>index</replace>
+      <replace>wrapper2</replace>
+      <replace>wrapper</replace>
+      <replace>$db</replace>
+      <replace>$result</replace>
+      <replace>$query</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/uws-website" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/uws-website/sear" />
+        <option value="$PROJECT_DIR$/uws-website/search" />
+        <option value="$PROJECT_DIR$/uws-website/backend-search.php" />
+        <option value="$PROJECT_DIR$/uws-website/search-form.php" />
+        <option value="$PROJECT_DIR$/uws-website/readdetails.php" />
+        <option value="$PROJECT_DIR$/uws-website/page.php" />
+        <option value="$PROJECT_DIR$/envoyer.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/dash/index.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/dash.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/dash/dash.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/demande_formation.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/traitement2.php" />
+        <option value="$PROJECT_DIR$/uws-website/dash/css/sb-admin-2.min.css" />
+        <option value="$PROJECT_DIR$/uws-website/dash/index.html" />
+        <option value="$PROJECT_DIR$/uws-website/admin/aside2.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/aside.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/aside3.php" />
+        <option value="$PROJECT_DIR$/uws-website/stage_dispo.php" />
+        <option value="$PROJECT_DIR$/uws-website/formation_dispo.php" />
+        <option value="$PROJECT_DIR$/uws-website/vendor/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/uws-website/style2.css" />
+        <option value="$PROJECT_DIR$/uws-website/login.php" />
+        <option value="$PROJECT_DIR$/uws-website/style3.css" />
+        <option value="$PROJECT_DIR$/uws-website/admin/create_formation.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/create_stage.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/demande_stage.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/aside/aside2.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/aside/aside3.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/home.php" />
+        <option value="$PROJECT_DIR$/uws-website/b.php" />
+        <option value="$PROJECT_DIR$/navbar.php" />
+        <option value="$PROJECT_DIR$/uws-website/register.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/create_user.php" />
+        <option value="$PROJECT_DIR$/uws-website/index.php" />
+        <option value="$PROJECT_DIR$/a" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/vendor/task/send_mail_smtp.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/affecter.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/count.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/delete_user.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/gestion_contrat.php" />
+        <option value="$PROJECT_DIR$/uws-website/read_formation.php" />
+        <option value="$PROJECT_DIR$/uws-website/traitement_formation.php" />
+        <option value="$PROJECT_DIR$/uws-website/functions.php" />
+        <option value="$PROJECT_DIR$/uws-website/traitement.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/modify.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/read.php" />
+        <option value="$PROJECT_DIR$/uws-website/read_stage.php" />
+        <option value="$PROJECT_DIR$/uws-website/a.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/modifier.php" />
+        <option value="$PROJECT_DIR$/uws-website/admin/aside/aside.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="universalsiteweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="universalsiteweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="universalsiteweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="universalsiteweb" type="462c0819:PsiDirectoryNode" />
+              <item name="uws-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="universalsiteweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="universalsiteweb" type="462c0819:PsiDirectoryNode" />
+              <item name="uws-website" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../semos" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\universalsiteweb\vendor" />
+      <recent name="C:\wamp64\www\universalsiteweb" />
+      <recent name="C:\wamp64\www\universalsiteweb\uws-website" />
+      <recent name="C:\xampp\htdocs\universal site web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\universalsiteweb\uws-website\admin\aside" />
+      <recent name="C:\wamp64\www\universalsiteweb\uws-website" />
+      <recent name="C:\wamp64\www\universalsiteweb\uws-website\admin" />
+      <recent name="C:\wamp64\www\universalsiteweb\uws-website\vendor\bootstrap\css" />
+      <recent name="C:\wamp64\www\universalsiteweb\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65971518-9e26-44ff-820b-82c209b2bb1f" name="Default Changelist" comment="" />
+      <created>1547545193193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547545193193</updated>
+      <workItem from="1547545195303" duration="6253000" />
+      <workItem from="1548593019044" duration="1522000" />
+      <workItem from="1548688354428" duration="37000" />
+      <workItem from="1548711137898" duration="15718000" />
+      <workItem from="1548941397015" duration="7844000" />
+      <workItem from="1549112347032" duration="22429000" />
+      <workItem from="1549369961824" duration="8756000" />
+      <workItem from="1549490812780" duration="51171000" />
+      <workItem from="1549704231148" duration="16977000" />
+      <workItem from="1549870484831" duration="14771000" />
+      <workItem from="1547679762984" duration="103000" />
+      <workItem from="1549015906474" duration="94000" />
+      <workItem from="1549016146674" duration="7000" />
+      <workItem from="1548498009587" duration="16777000" />
+      <workItem from="1550420095138" duration="23000" />
+      <workItem from="1544028208797" duration="13253000" />
+      <workItem from="1546347242809" duration="37000" />
+      <workItem from="1547643407371" duration="8669000" />
+      <workItem from="1550753136401" duration="25648000" />
+      <workItem from="1551381429900" duration="748000" />
+      <workItem from="1551382568530" duration="828000" />
+      <workItem from="1551383842369" duration="1836000" />
+      <workItem from="1551386638482" duration="699000" />
+      <workItem from="1551451521339" duration="1658000" />
+      <workItem from="1551453282660" duration="1296000" />
+      <workItem from="1551468365723" duration="1530000" />
+      <workItem from="1551523061659" duration="1647000" />
+      <workItem from="1551530605967" duration="1871000" />
+      <workItem from="1551532660501" duration="647000" />
+      <workItem from="1551727553739" duration="986000" />
+      <workItem from="1551729442419" duration="616000" />
+      <workItem from="1551731633594" duration="1733000" />
+      <workItem from="1551733451305" duration="1382000" />
+      <workItem from="1551780989245" duration="707000" />
+      <workItem from="1551789475927" duration="1533000" />
+      <workItem from="1551798225245" duration="571000" />
+      <workItem from="1551811524830" duration="1217000" />
+      <workItem from="1551813375947" duration="1735000" />
+      <workItem from="1551815265528" duration="1740000" />
+      <workItem from="1551817105578" duration="1744000" />
+      <workItem from="1551820295129" duration="1751000" />
+      <workItem from="1551822138412" duration="1714000" />
+      <workItem from="1551824062173" duration="1734000" />
+      <workItem from="1551826021082" duration="1825000" />
+      <workItem from="1551859614479" duration="1718000" />
+      <workItem from="1551861546616" duration="1728000" />
+      <workItem from="1551863359957" duration="2152000" />
+      <workItem from="1539518622612" duration="34000" />
+      <workItem from="1539518738313" duration="591000" />
+      <workItem from="1539524286204" duration="229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="250289000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.090771556" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3289689" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/dash.php" />
+    <entry file="file://$PROJECT_DIR$/uws-website/css/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/search-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/dash/css/sb-admin-2.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="9" column="173038" lean-forward="true" selection-start-line="9" selection-start-column="173038" selection-end-line="9" selection-end-column="173038" />
+          <folding>
+            <element signature="e#30002#30236#2" expanded="true" />
+            <element signature="e#30894#31047#1" expanded="true" />
+            <element signature="e#31087#31321#1" expanded="true" />
+            <element signature="e#34573#34849#2" expanded="true" />
+            <element signature="e#35533#35686#1" expanded="true" />
+            <element signature="e#35726#36002#1" expanded="true" />
+            <element signature="e#68910#69097#2" expanded="true" />
+            <element signature="e#69326#69462#2" expanded="true" />
+            <element signature="e#69867#70000#2" expanded="true" />
+            <element signature="e#71695#71848#1" expanded="true" />
+            <element signature="e#86823#87053#2" expanded="true" />
+            <element signature="e#87920#88156#2" expanded="true" />
+            <element signature="e#116732#116909#2" expanded="true" />
+            <element signature="e#116955#117132#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/dash/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="462" column="42" selection-start-line="462" selection-start-column="17" selection-end-line="462" selection-end-column="42" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#3;n#div#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/simple-sidebar.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/vendor/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="5" column="56938" lean-forward="true" selection-start-line="5" selection-start-column="56938" selection-end-line="5" selection-end-column="56939" />
+          <folding>
+            <element signature="e#45568#45768#2" expanded="true" />
+            <element signature="e#45890#46039#2" expanded="true" />
+            <element signature="e#46185#46331#2" expanded="true" />
+            <element signature="e#46757#46920#1" expanded="true" />
+            <element signature="e#55587#55830#2" expanded="true" />
+            <element signature="e#56556#56805#2" expanded="true" />
+            <element signature="e#81351#81538#2" expanded="true" />
+            <element signature="e#81584#81773#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/style3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/aside/aside3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/dash/dash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7140">
+          <caret line="420" selection-start-line="341" selection-start-column="9" selection-end-line="420" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/aside/aside2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/task/ftp.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="75" lean-forward="true" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/task/send_mail_smtp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#127#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="319" column="44" selection-start-line="319" selection-start-column="44" selection-end-line="319" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/affecter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/create_formation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/create_user.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/delete_user.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/demande_formation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#3973#3978#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/demande_stage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/gestion_contrat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/register.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/stage_dispo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/login.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/mailer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/create_stage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3927">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/read_formation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="90" column="65" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/traitement_formation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/formation_dispo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/modify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4709">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5338">
+          <caret line="314" column="12" selection-start-line="314" selection-start-column="12" selection-end-line="314" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/read_stage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5100">
+          <caret line="300" column="57" selection-start-line="300" selection-start-column="57" selection-end-line="300" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/traitement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="6" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uws-website/admin/aside/aside.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
